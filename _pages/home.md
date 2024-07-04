@@ -40,30 +40,18 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s4.jpg" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s20.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s16.jpg" alt="Slide 4" />
-        </div>       
+        </div>    
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s13.png" alt="Slide 5" />
-        </div>  
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s13.png" alt="Slide 3" />
+        </div>    
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s2.jpg" alt="Slide 6" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s14.png" alt="Slide 7" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 8" />
-        </div>
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 4" />
+        </div> 
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s14.jpg" alt="Slide 9" />
-        </div>        
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s7.jpg" alt="Slide 5" />
+        </div>     
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s7.jpg" alt="Slide 10" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s16.jpg" alt="Slide 6" />
         </div>
 
     </div>
