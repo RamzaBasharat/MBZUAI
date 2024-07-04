@@ -12,7 +12,7 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
 <style>
 #carousel img {
     width: 100%;
-    height: 400px; /* Set the desired height */
+    height: 300px; /* Set the desired height */
     object-fit: cover; /* This will ensure the images cover the entire area while maintaining aspect ratio */
 }
 </style>
@@ -31,7 +31,6 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
         <li data-target="#carousel" data-slide-to="8"></li>
         <li data-target="#carousel" data-slide-to="9"></li>
         <li data-target="#carousel" data-slide-to="10"></li>
-        <li data-target="#carousel" data-slide-to="11"></li>
     </ol>
 
     <!-- Items -->
@@ -46,31 +45,25 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s20.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s12.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s16.jpg" alt="Slide 4" />
+        </div>       
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s13.png" alt="Slide 5" />
+        </div>  
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s2.jpg" alt="Slide 6" />
+        </div>       
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s14.png" alt="Slide 7" />
+        </div>       
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 8" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s16.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s13.png" alt="Slide 6" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s1.jpg" alt="Slide 7" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s2.jpg" alt="Slide 8" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s5.jpg" alt="Slide 9" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 10" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s14.jpg" alt="Slide 10" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s14.jpg" alt="Slide 9" />
         </div>        
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s7.jpg" alt="Slide 11" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s7.jpg" alt="Slide 10" />
         </div>
 
     </div>
