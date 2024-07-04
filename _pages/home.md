@@ -9,6 +9,13 @@ permalink: /
 
 Welcome to the official website of the Natural Language Processing (NLP) Research Group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). As pioneers in advancing the frontiers of NLP, our group is committed to conducting cutting-edge research that addresses the complexities of natural language understanding and processing.
 
+<style>
+#carousel img {
+    width: 100%;
+    height: 400px; /* Set the desired height */
+    object-fit: cover; /* This will ensure the images cover the entire area while maintaining aspect ratio */
+}
+</style>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -48,7 +55,7 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s13.png" alt="Slide 6" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s1.png" alt="Slide 7" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s1.jpg" alt="Slide 7" />
         </div>       
          <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s2.jpg" alt="Slide 8" />
@@ -57,7 +64,7 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s5.jpg" alt="Slide 9" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpg" alt="Slide 10" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 10" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s14.jpg" alt="Slide 10" />
@@ -87,6 +94,7 @@ These innovative systems facilitate a range of sophisticated tasks, including:
 * Semantic understanding
 * Text summarization
 * Dialogue management
+* Speech Recognition
 
 Core applications of our NLP algorithms encompass:
 
