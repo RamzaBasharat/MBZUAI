@@ -97,20 +97,20 @@ firstp {
     display: inline-block;
     padding: 5px 20px;
     font-size: 16px;
-    font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #40a5db; /* Text color */
+    color: 	#00bfff; /* Text color */
     background-color: #fff; /* Background color */
-    border: 3px soild #40a5db; /* Remove default border */
+    border: 5px soild #00bfff; /* Remove default border */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
 }
 
 .custom-btn:hover {
     color: #fff;
-    background-color: #40a5db; /* Darker background color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    background-color: 	#00bfff; /* Darker background color on hover */
+    transform: scale(1.01); /* Slightly enlarge the button on hover */
+    text-decoration: none;
 }
 //
 // .custom-btn:active {
