@@ -95,30 +95,30 @@ firstp {
 
 .custom-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #fff; /* Text color */
-    background-color: #158CBA; /* Background color */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
+    color: #40a5db; /* Text color */
+    background-color: #fff; /* Background color */
+    border: 3px soild #40a5db; /* Remove default border */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
 }
 
 .custom-btn:hover {
-    background-color: #136E99; /* Darker background color on hover */
+    color: #fff;
+    background-color: #40a5db; /* Darker background color on hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
 }
-
-.custom-btn:active {
-    background-color: #0F5774; /* Even darker background color when the button is clicked */
-    transform: scale(1.00); /* Reset to original size on click */
-}
-
-.custom-btn:focus {
-    outline: none; /* Remove default focus outline */
-    box-shadow: 0 0 0 3px rgba(21, 140, 186, 0.5); /* Add a focus ring for accessibility */
-}
+//
+// .custom-btn:active {
+//     background-color: #0F5774; /* Even darker background color when the button is clicked */
+//     transform: scale(1.00); /* Reset to original size on click */
+// }
+//
+// .custom-btn:focus {
+//     outline: none; /* Remove default focus outline */
+//     box-shadow: 0 0 0 3px rgba(21, 140, 186, 0.5); /* Add a focus ring for accessibility */
+// }
