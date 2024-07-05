@@ -135,8 +135,8 @@ background-color: #4d5966;
 //----------------
 /* Navbar background and text color */
 .navbar-default {
-    background-color: #333; /* Background color */
-    border-color: #333;    /* Border color */
+    background-color: #4d5966; /* Background color */
+    border-color: #00bfff;    /* Border color */
 }
 
 .navbar-default .navbar-brand,
@@ -146,8 +146,9 @@ background-color: #4d5966;
     padding-bottom: 10px; /* Adjust padding for lower border */
 }
 
-/* Lower border for navbar links */
-.navbar-default .navbar-nav > li > a:after {
+/* Lower border for navbar links on hover and active */
+.navbar-default .navbar-nav > li > a:hover::after,
+.navbar-default .navbar-nav > .active > a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -155,6 +156,17 @@ background-color: #4d5966;
     bottom: 0;
     height: 2px; /* Border thickness */
     background-color: #00bfff; /* Border color */
+}
+
+/* Remove border on inactive links */
+.navbar-default .navbar-nav > li > a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px; /* Border thickness */
+    background-color: transparent; /* Transparent by default */
 }
 
 /* Navbar link hover effect */
@@ -172,8 +184,4 @@ background-color: #4d5966;
     background-color: #444; /* Active background color */
 }
 
-/* Lower border for active link */
-.navbar-default .navbar-nav > .active > a:after {
-    background-color: #ff5733; /* Active link border color */
-}
 
