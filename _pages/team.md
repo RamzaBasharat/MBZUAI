@@ -26,11 +26,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-    {% if member.email %}
-      <i>Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></i>
-    {% endif %}
-  <ul style="overflow: hidden">
+  <i>{{ member.info }} <br>email: <{{ member.email }}></i>
+    <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
