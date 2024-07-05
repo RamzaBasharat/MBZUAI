@@ -98,13 +98,14 @@ color: #000080;
 }
 
 .gray{
-color:#374049;
-}
-h5{
-color:#374049;
+color:#586674;
 }
 
-h2, h4{
+h5, h2{
+color:#586674;
+}
+
+h4{
 color: #000080;
 }
 
@@ -115,15 +116,16 @@ color: #00bfff;
 .custom-btn {
     display: inline-block;
     padding: 5px 20px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
+    text-transform: none;
     color: 	#00bfff; /* Text color */
     background-color: #fff; /* Background color */
-    border: 5px solid #00bfff; /* Remove default border */
+    border: 1px solid #00bfff; /* Remove default border */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
-    margin: 0 10px;
+    margin: 0 10px 5px 0px;
 }
 
 .custom-btn:hover {
