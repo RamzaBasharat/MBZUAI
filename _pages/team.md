@@ -6,14 +6,14 @@ sitemap: false
 permalink: /team/
 ---
 
-<h1 class="navy">Group Members</h1>
+<h2>Group Members</h2>
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
-## Staff
+<h3>Staff</h3>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -87,7 +87,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-## Master and Bachelor Students
+<h3>Master and Bachelor Students</h3>
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -141,7 +141,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-## Alumni
+<h3>Alumni</h3>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -174,7 +174,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-## Former visitors, BSc/ MSc students
+<h3>Former visitors, BSc/ MSc students</h3>
 <div class="row">
 
 <div class="col-sm-4 clearfix">
@@ -201,5 +201,5 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 
 
-## Administrative Support
+<h3>Administrative Support</h3>
 <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.

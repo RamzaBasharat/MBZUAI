@@ -93,19 +93,11 @@ firstp {
 
 /* custom css */
 
-.navy{
-color: #000080;
-}
-
-.gray{
+h3,h5, .gray{
 color:#4d5966;
 }
 
-h5, h2{
-color:#4d5966;
-}
-
-h4{
+h2,h4, .navy{
 color: #000080;
 }
 
@@ -116,7 +108,7 @@ color: #00bfff;
 .custom-btn {
     display: inline-block;
     padding: 5px 20px;
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -129,17 +121,8 @@ color: #00bfff;
 
 .custom-btn:hover {
     color: #fff;
-    background-color: 	#00bfff; /* Darker background color on hover */
+    background-color: #00bfff; /* Darker background color on hover */
     transform: scale(1.01); /* Slightly enlarge the button on hover */
     text-decoration: none;
+    text-transform: none;
 }
-//
-// .custom-btn:active {
-//     background-color: #0F5774; /* Even darker background color when the button is clicked */
-//     transform: scale(1.00); /* Reset to original size on click */
-// }
-//
-// .custom-btn:focus {
-//     outline: none; /* Remove default focus outline */
-//     box-shadow: 0 0 0 3px rgba(21, 140, 186, 0.5); /* Add a focus ring for accessibility */
-// }
