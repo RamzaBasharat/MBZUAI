@@ -11,9 +11,9 @@ permalink: /team/
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
-## Staff
+## **Staff**
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -25,11 +25,12 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}></i>
-  <p>Email: <{{ member.email }}</p>
+  <h4><b>{{ member.name }}</b></h4>
+  <i>{{ member.info }}</i>
+
+  <a href="mailto:{{ member.email }}">{{ member.email }}</a>
   <p>Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.</p>
-    
+  <h5><b>Education:</b></h5>
 <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -63,10 +64,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
 </ul>
-    <div>
+   <div>
       <a href="{{ member.website }}" class="btn btn-primary" target="_blank">Personal Website</a>
       <a href="{{ member.google_scholar }}" class="btn btn-primary" target="_blank">Google Scholar</a>
-    </div>
+   </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
