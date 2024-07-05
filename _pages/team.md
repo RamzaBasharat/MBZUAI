@@ -28,7 +28,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <h4><b>{{ member.name }}</b></h4>
   <i>{{ member.info }}</i>
 
-  <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+[//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <p>Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.</p>
   <h5><b>Education:</b></h5>
 <ul style="overflow: hidden">
@@ -64,11 +64,12 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
 </ul>
-   <div>
-      <a href="{{ member.website }}" class="btn btn-primary" target="_blank">Personal Website</a>
-      <a href="{{ member.google_scholar }}" class="btn btn-primary" target="_blank">Google Scholar</a>
-   </div>
 </div>
+<div class="col-sm-12 clearfix">
+  <a href="{{ member.website }}" class="btn btn-primary" target="_blank">Personal Website</a>
+  <a href="{{ member.google_scholar }}" class="btn btn-primary" target="_blank">Google Scholar</a>
+</div>
+
 
 {% assign number_printed = number_printed | plus: 1 %}
 
