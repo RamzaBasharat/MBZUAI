@@ -25,7 +25,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h4><b>{{ member.name }}</b></h4>
+  <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
@@ -66,8 +66,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </ul>
 </div>
 <div class="col-sm-12 clearfix">
-  <a href="{{ member.website }}" class="btn btn-primary" target="_blank">Personal Website</a>
-  <a href="{{ member.google_scholar }}" class="btn btn-primary" target="_blank">Google Scholar</a>
+  <a href="{{ member.website }}" class="custom-btn" target="_blank">Personal Website</a>
+  <a href="{{ member.google_scholar }}" class="btn btn-primary" target="_blank">Google Scholar</a><br>
 </div>
 
 
