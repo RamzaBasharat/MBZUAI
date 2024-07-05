@@ -65,7 +65,7 @@ Welcome to the official website of the Natural Language Processing (NLP) Researc
   </a>
 </div>
 
-## **Research Focus**
+<h2>Research Focus<h2>
 
 Our academics in the Natural Language Processing (NLP) Research Group focus on developing advanced systems that enable computers to communicate with humans using everyday language. They are dedicated to creating technologies that translate information from computer databases into readable or audible human language and vice versa.
 
@@ -87,6 +87,6 @@ Core applications of our NLP algorithms encompass:
 
 Through these efforts, our group aims to enhance human-computer interaction and advance the capabilities of AI-driven linguistic analysis.
 
-## **Explore Our Work**
+<h2>Explore Our Work</h2>
 
 Explore our publications, ongoing projects, and the expertise of our esteemed researchers who are shaping the future of AI-driven linguistic analysis. (<a href="{{ site.url }}{{ site.baseurl }}/publications">see more...</a>)

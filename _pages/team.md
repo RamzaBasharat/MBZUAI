@@ -13,7 +13,7 @@ permalink: /team/
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
-## **Staff**
+## Staff
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -25,7 +25,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4 class="navy_color">{{ member.name }}</h4>
   <i>{{ member.info }}</i>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
