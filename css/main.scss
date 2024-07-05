@@ -131,3 +131,30 @@ color: #00bfff;
 color: #fff;
 background-color: #4d5966;
 }
+
+//----------------
+/* Navbar background and text color */
+.navbar-default {
+    background-color: #333; /* Background color */
+    border-color: #333;    /* Border color */
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #fff; /* Text color */
+}
+
+/* Navbar link hover effect */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #00bfff; /* Text color on hover */
+    background-color: #444; /* Background color on hover */
+}
+
+/* Active link styling */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff; /* Active text color */
+    background-color: #444; /* Active background color */
+}
