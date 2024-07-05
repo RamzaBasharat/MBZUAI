@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-<h1 class="navy_color">Group Members</h1>
+<h1 class="navy">Group Members</h1>
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
@@ -66,8 +66,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </ul>
 </div>
 <div class="col-sm-12 clearfix">
-  <a href="{{ member.website }}" class="btn custom-btn" target="_blank">Personal Website</a>
-  <a href="{{ member.google_scholar }}" class="btn custom-btn" target="_blank">Google Scholar</a><br>
+  <a href="{{ member.website }}" class="custom-btn" target="_blank">Personal Website</a>
+  <a href="{{ member.google_scholar }}" class="custom-btn" target="_blank">Google Scholar</a><br>
 </div>
 
 
