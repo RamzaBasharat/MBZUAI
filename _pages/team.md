@@ -25,8 +25,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h4 class="navy_color"><b>{{ member.name }}</b></h4>
-  <i class="sky_color">{{ member.info }}</i>
+  <h4>{{ member.name }}</h4>
+  <i class="sky">{{ member.info }}</i>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <p>Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.</p>
