@@ -13,10 +13,10 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <h3 id="under-review-articles"> Under Review Articles </h3>
 
 {% for publi in site.data.under_review %}
-
-  <em>{{ publi.authors }} </em><br />
+  
   <span class="navy">{{ publi.title }}</span><br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <em>{{ publi.authors }} </em><br />
+  In: <span class="sky">{{ publi.publisher }}</span>, Submitted Date: <span class="sky">{{ publi.date}}</span>
 
 {% endfor %}
 
@@ -36,7 +36,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
-  In: <span class="sky">{ publi.link.display }}</span>{
+  In: <span class="sky">{{publi.link.display}}</span>
 
 {% endfor %}
 
