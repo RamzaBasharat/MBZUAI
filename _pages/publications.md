@@ -30,7 +30,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   
       <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="abs-{{ forloop.index }}" data-parent="#accordion">
         <div class="card-body">
-          {{ publi.abstract }}
+          {{ publi.abs }}
         </div>
       </div>
     </div>
@@ -68,6 +68,6 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 </div>
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    Hi nim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
   </div>
 </div>
