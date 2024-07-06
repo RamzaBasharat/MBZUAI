@@ -93,6 +93,10 @@ firstp {
 
 /* ---------------------- custom css ---------------------------- */
 
+.scale{
+transform: scale(1.02)
+}
+
 // ----------------- custom color ------------------------------
 
 h3,h5, .gray{
@@ -146,7 +150,7 @@ color:#99a7b2;
 .custom-btn:hover {
     color: #fff;
     background-color: #00bfff; /* Darker background color on hover */
-    transform: scale(1.01); /* Slightly enlarge the button on hover */
+    transform: scale(1.02); /* Slightly enlarge the button on hover */
     text-decoration: none;
     text-transform: none;
 }
@@ -220,7 +224,7 @@ color:#99a7b2;
 }
 
 #footer a:hover {
-    color: #000080; /* Link text color on hover */
+    transform: scale(1.02);
     text-decoration: none;
     text-transform: none;
 }
@@ -228,3 +232,4 @@ color:#99a7b2;
 .footer-icon{
 margin-right:5px;
 }
+
