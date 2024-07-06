@@ -11,6 +11,14 @@ permalink: /publications/
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
 
 <h3 id="under-review-articles"> Under Review Articles </h3>
+
+{% for publi in site.data.under_review %}
+
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+{% endfor %}
+
 <h3 id="patents"> Patents </h3>
 
 {% for i in site.data.patents %}
