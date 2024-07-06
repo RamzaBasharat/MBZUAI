@@ -33,24 +33,41 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <h3 id="list-of-all-publications"> List of all Publications </h3>
 
-{% for publi in site.data.publist%}
+{% for publi in site.data.publist %}
 
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
-  In: <span class="sky">{{publi.publisher}}</span>
-  In: <span class="sky">{{publi.bibTex}}</span>
-  In: <span class="sky">{{publi.abs}}</span>
+  In: {{publi.publisher}}
   <div>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Link with href
+  <a class="btn btn-primary" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="collapseAbstract">
+    Abs
   </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
+
+  <a class="btn btn-secondary" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="collapseBibtex">
+    BibTeX
+  </a>
+
+  <a class="btn btn-info" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="collapseUrl">
+    URL
+  </a>
 </div>
-<div class="collapse" id="collapseExample">
+
+
+<div class="collapse" id="abstract">
   <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    {{publi.abs}}
+  </div>
+</div>
+
+<div class="collapse" id="bibtex">
+  <div class="card card-body">
+    {{publi.bibtex}}
+  </div>
+</div>
+
+<div class="collapse" id="url">
+  <div class="card card-body">
+    <a href="{{ publi.url }}" target="_blank">http://example.com</a>
   </div>
 </div>
 
