@@ -14,6 +14,20 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <h3 id="patents"> Patents </h3>
 <h3 id="list-of-all-publications"> List of all Publications </h3>
 
+<div id="publications-container">
+  {% assign limited_publist = site.data.publist | slice: 0, 5 %}
+  {% for publi in limited_publist %}
+    <div class="publication-item">
+      {{ publi.title }} <br />
+      <em>{{ publi.authors }} </em><br />
+      <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+    </div>
+  {% endfor %}
+</div>
+
+<button id="see-more-btn" onclick="loadMorePublications()">See More</button>
+
+
 {% for publi in site.data.publist | slice: 0, 5 %}
 
   {{ publi.title }} <br />
