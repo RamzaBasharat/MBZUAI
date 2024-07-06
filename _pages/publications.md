@@ -17,7 +17,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
   <em>{{ i.authors }} </em><br />
   {{ i.title }} <br />
-  {{ i.patent-id }}
+  <span class="sky">{{ i.patent-id }}</span>
 
 {% endfor %}
 
