@@ -13,7 +13,7 @@ permalink: /team/
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
-<h3>Staff</h3>
+<h3 id="staff">Staff</h3>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -87,7 +87,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-<h3>Master and Bachelor Students</h3>
+<h3 id="master-and-bachelor-students">Master and Bachelor Students</h3>
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -141,7 +141,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-<h3>Alumni</h3>
+<h3 id="alumni">Alumni</h3>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -174,7 +174,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-<h3>Former visitors, BSc/ MSc students</h3>
+<h3 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h3>
 <div class="row">
 
 <div class="col-sm-4 clearfix">
@@ -201,5 +201,5 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 
 
-<h3>Administrative Support</h3>
+<h3 id="administrative-support">Administrative Support</h3>
 <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.

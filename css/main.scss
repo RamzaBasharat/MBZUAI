@@ -164,7 +164,7 @@ background-color: #4d5966;
 .navbar-default .navbar-nav > li > a:hover {
     color: #00bfff; /* Text color on hover */
     background-color: transparent; /* Keep background color transparent */
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 /* Active link styling */
@@ -180,8 +180,31 @@ background-color: #4d5966;
     color: #fff; /* Text color */
 }
 
-.footer-logo{
-height:40px;
-width:auto;
-margin-right:20px;
+//-----------------------------------------------------------------------------
+
+/* Footer background and text color */
+#footer {
+    background-color: #4d5966; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding top and bottom */
+    border-top: 1px solid #00bfff; /* Top border color */
+}
+
+#footer p {
+    margin-bottom: 10px; /* Bottom margin for paragraphs */
+}
+
+#footer a {
+    color: #fff; /* Link text color */
+}
+
+#footer a:hover {
+    color: #00bfff; /* Link text color on hover */
+}
+
+/* Footer logo */
+#footer-logo {
+    height: 30px; /* Adjust the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the logo */
 }
