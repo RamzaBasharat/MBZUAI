@@ -161,3 +161,11 @@ background-color: #4d5966;
     color: #00bfff; /* Active text color */
     background-color: #444; /* Active background color */
 }
+
+/* Navbar logo */
+.navbar-logo {
+    height: 40px; /* Adjust the height of the logo */
+    display: inline-block;
+    vertical-align: middle; /* Align the logo vertically with the text */
+    margin-right: 10px; /* Add some space between the logo and the text */
+}
