@@ -16,7 +16,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   
   <span class="navy">{{ publi.title }}</span><br />
   <em>{{ publi.authors }} </em><br />
-  In: <span class="sky">{{ publi.publisher }}</span>, Submitted Date: <span class="sky">{{ publi.date}}</span>
+  In: {{ publi.publisher }}, <i class="sky">(Submitted: {{publi.date}})</i>
 
 {% endfor %}
 
