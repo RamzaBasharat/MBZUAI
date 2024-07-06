@@ -97,6 +97,7 @@ firstp {
 transform: scale(1.02)
 }
 
+.
 // ----------------- custom color ------------------------------
 
 h3,h5, .gray{
@@ -162,7 +163,7 @@ color:#99a7b2;
     background-color: #2c333a; /* Background color */
     border: none; /* Remove the default border */
     border-bottom: 3px solid #00bfff;
-    padding: 20px 0px;
+    padding: 10px 0px 0px 0px;
     border-radius: 0px;
 }
 
@@ -225,7 +226,7 @@ color:#99a7b2;
 
 #footer a:hover {
     color:#00bfff;
-    transform: scale(1.02);
+    transform: scale(1.05);
     text-decoration: none;
     text-transform: none;
 }
