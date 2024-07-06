@@ -54,10 +54,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: <span class="sky">{{publi.link.display}}</span>
-
-{% endfor %}
-
-<div>
+  <div>
   <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     Link with href
   </a>
@@ -70,3 +67,31 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
   </div>
 </div>
+
+{% endfor %}
+
+[//]: # (<div>)
+
+[//]: # (  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">)
+
+[//]: # (    Link with href)
+
+[//]: # (  </a>)
+
+[//]: # (  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">)
+
+[//]: # (    Button with data-target)
+
+[//]: # (  </button>)
+
+[//]: # (</div>)
+
+[//]: # (<div class="collapse" id="collapseExample">)
+
+[//]: # (  <div class="card card-body">)
+
+[//]: # (    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.)
+
+[//]: # (  </div>)
+
+[//]: # (</div>)
