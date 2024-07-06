@@ -7,7 +7,7 @@ sitemap: false
 permalink: /
 ---
 
-Welcome to the official website of the Natural Language Processing (NLP) Research Group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). As pioneers in advancing the frontiers of NLP, our group is committed to conducting cutting-edge research that addresses the complexities of natural language understanding and processing.
+Welcome to the official website of the RiTUAL (Research in Text Understanding and Analysis of Language) research group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). As pioneers in advancing the frontiers of NLP, our group is committed to conducting cutting-edge research that addresses the complexities of natural language understanding and processing.
 
 <style>
 #carousel img {
