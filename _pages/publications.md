@@ -6,91 +6,12 @@ sitemap: false
 permalink: /publications/
 ---
 
+<h2>Publications</h2>
 
-# Publications
 
-[//]: # (## Group highlights)
 
-[//]: # ()
-[//]: # (**At the end of this page, you can find the [full list of publications and patents]&#40;#full-list-of-publications&#41;. All papers are also available on [arXiv]&#40;https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P&#41;.**)
-
-[//]: # ()
-[//]: # ({% assign number_printed = 0 %})
-
-[//]: # ({% for publi in site.data.publist %})
-
-[//]: # ()
-[//]: # ({% assign even_odd = number_printed | modulo: 2 %})
-
-[//]: # ({% if publi.highlight == 1 %})
-
-[//]: # ()
-[//]: # ({% if even_odd == 0 %})
-
-[//]: # (<div class="row">)
-
-[//]: # ({% endif %})
-
-[//]: # ()
-[//]: # (<div class="col-sm-6 clearfix">)
-
-[//]: # ( <div class="well">)
-
-[//]: # (  <pubtit>{{ publi.title }}</pubtit>)
-
-[//]: # (  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />)
-
-[//]: # (  <p>{{ publi.description }}</p>)
-
-[//]: # (  <p><em>{{ publi.authors }}</em></p>)
-
-[//]: # (  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>)
-
-[//]: # (  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>)
-
-[//]: # (  <p> {{ publi.news2 }}</p>)
-
-[//]: # ( </div>)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # ({% assign number_printed = number_printed | plus: 1 %})
-
-[//]: # ()
-[//]: # ({% if even_odd == 1 %})
-
-[//]: # (</div>)
-
-[//]: # ({% endif %})
-
-[//]: # ()
-[//]: # ({% endif %})
-
-[//]: # ({% endfor %})
-
-[//]: # ()
-[//]: # ({% assign even_odd = number_printed | modulo: 2 %})
-
-[//]: # ({% if even_odd == 1 %})
-
-[//]: # (</div>)
-
-[//]: # ({% endif %})
-
-[//]: # ()
-[//]: # (<p> &nbsp; </p>)
-
-[//]: # ()
-[//]: # ()
-[//]: # (## Patents)
-
-[//]: # (<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 &#40;2020&#41;)
-
-[//]: # ()
-[//]: # (<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:&#40;Milan+ALLAN&#41;">US10439125B2 &#40;2016&#41;</a>)
-
-<h2>List of publications</h2>
+<h2> List of Publications </h2>
+<h3> Under Review </h3>
 
 {% for publi in site.data.publist %}
 
