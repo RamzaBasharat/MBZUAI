@@ -35,7 +35,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 {% for publi in site.data.publist%}
 
   <em>{{ publi.authors }} </em><br />
-  <span class="navy">{{ publi.title }}</span>
+  <span class="navy">{{ publi.title }}</span><br />
   In: <span class="sky">{{ publi.link.display }}</span>
 
 {% endfor %}
