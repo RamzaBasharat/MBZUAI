@@ -163,6 +163,7 @@ background-color: #4d5966;
 .navbar-default .navbar-nav > li > a:hover {
     color: #00bfff; /* Text color on hover */
     background-color: transparent; /* Keep background color transparent */
+    transform: scale(1.05);
 }
 
 /* Active link styling */
