@@ -5,7 +5,7 @@
   publisher: arXiv preprint arXiv:2407.01411
   link:
     url: https://arxiv.org/abs/2407.01411
-  bibTex: "@article{ortiz2024hyperloader, 
+  bibtex: "@article{ortiz2024hyperloader, 
   title={HyperLoader: Integrating Hypernetwork-Based LoRA and Adapter Layers into Multi-Task Transformers for Sequence Labelling},
   author={Ortiz-Barajas, Jesus-German and Gomez-Adorno, Helena and Solorio, Thamar},
   journal={arXiv preprint arXiv:2407.01411},

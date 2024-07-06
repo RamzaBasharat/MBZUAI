@@ -67,7 +67,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <div class="collapse" id="url">
   <div class="card card-body">
-    <a href="{{ publi.url }}" target="_blank">http://example.com</a>
+    <a href={{publi.url}} target="_blank">{{publi.url}}</a>
   </div>
 </div>
 
