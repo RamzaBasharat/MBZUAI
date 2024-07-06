@@ -127,11 +127,10 @@ color: #00bfff;
     text-transform: none;
 }
 
-.footer{
+.bg-color{
+background-color: #2c333a;
 color: #fff;
-background-color: #4d5966;
 }
-
 //-----------------
 
 /* Navbar background and text color */
@@ -184,19 +183,19 @@ background-color: #4d5966;
 
 /* Footer background and text color */
 #footer {
-    background-color: #4d5966; /* Background color */
+    background-color: #2c333a; /* Background color */
     color: #fff; /* Text color */
     padding: 20px 0; /* Padding top and bottom */
-    border-top: 1px solid #00bfff; /* Top border color */
+    border-top: 3px solid #00bfff; /* Top border color */
 }
 
 #footer p {
     margin-bottom: 10px; /* Bottom margin for paragraphs */
 }
 
-#footer a {
-    color: #fff; /* Link text color */
-}
+// #footer a {
+//     color: #fff; /* Link text color */
+// }
 
 #footer a:hover {
     color: #00bfff; /* Link text color on hover */
@@ -204,7 +203,9 @@ background-color: #4d5966;
 
 /* Footer logo */
 #footer-logo {
-    height: 30px; /* Adjust the height of the logo */
+    height: 40px; /* Adjust the height of the logo */
     width: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Space below the logo */
+//     margin-bottom: 10px; /* Space below the logo */
+    margin-right: 10px; /* Space below the logo */
 }
+
