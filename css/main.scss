@@ -180,7 +180,7 @@ color:#99a7b2;
 .navbar-logo {
     height: 60px; /* Adjust the height of the logo */
     width: auto; /* Automatically adjust the width to maintain aspect ratio */
-    margin-top: 15px; /* Add some space between the logo and the text */
+    padding-top: 15px; /* Add some space between the logo and the text */
     margin-right: 10px; /* Add some space between the logo and the text */
     padding:auto;
 }
@@ -224,6 +224,7 @@ color:#99a7b2;
 }
 
 #footer a:hover {
+    color:#00bfff;
     transform: scale(1.02);
     text-decoration: none;
     text-transform: none;
