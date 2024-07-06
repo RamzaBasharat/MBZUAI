@@ -32,10 +32,11 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <h3 id="list-of-all-publications"> List of all Publications </h3>
 
-{% for publi in site.data.publist | slice: 0, 5 %}
+{% for publi in site.data.publist%}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <em>{{ publi.authors }} </em>
+  <p class="navy">{{ publi.title }}</p><br />
+  <br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
 
