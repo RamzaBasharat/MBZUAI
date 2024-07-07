@@ -1,8 +1,7 @@
 ---
 title: "RiTUAL - Home"
 layout: homelay
-excerpt: "Research Group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
-."
+excerpt: "Research in Text Understanding and Analysis of Language"
 sitemap: false
 permalink: /
 ---
