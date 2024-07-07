@@ -39,7 +39,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
   <div>
-  <a class="btn btn-primary" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="collapseAbstract">
+  <a class="custom-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="collapseAbstract">
     Abs
   </a>
 
@@ -67,7 +67,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <div class="collapse" id="url">
   <div class="card card-body">
-    <a href={{publi.url}} target="_blank">{{publi.url}}</a>
+    {{publi.url}}
   </div>
 </div>
 
