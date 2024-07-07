@@ -19,12 +19,12 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   In: {{ publi.publisher }}, <i class="sky">(Submitted: {{publi.date}})</i>
 <div class="row">
   <div class="col-sm-12 clearfix">
-  <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
+  <a class="small-sky-btn" data-toggle="collapse" href="#abs-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abs-{{ forloop.index }}">
     Abstract
   </a>
 </div>
 </div>
-<div class="collapse" id="abstract-{{ forloop.index }}">
+<div class="collapse" id="abs-{{ forloop.index }}">
     {{publi.abs}}
 </div>
 
@@ -71,5 +71,4 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <div class="collapse" id="bibtex-{{ forloop.index }}">
    <pre>{{publi.bibtex}}</pre>
 </div>
-<br />
 {% endfor %}
