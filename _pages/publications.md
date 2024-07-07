@@ -24,7 +24,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   </a>
 </div>
 </div>
-<div class="collapse" id="abs-{{ forloop.index }}" style="margin-top:3px;margin-bottom:5px">
+<div class="collapse" id="abs-{{ forloop.index }}">
     {{publi.abs}}
 </div>
 
