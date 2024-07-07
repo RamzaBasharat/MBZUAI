@@ -98,7 +98,12 @@ transform: scale(1.02)
 }
 
 .space-below-nav{
-    margin-top:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.space-before-footer{
+    margin-top:15px;
 }
 
 // ----------------- custom color ------------------------------
@@ -265,13 +270,3 @@ margin-right:5px;
 }
 
 // --------------------------
-
-// .card.card-body{
-//     display: flex;
-//     margin-top:10px;
-//     background-color: #e6ffff; /* Background color for the card body */
-//     border: 1px solid #e6ffff;    /* Border color for the card body */
-//     border-radius: 5px;
-//     padding: 15px;             /* Padding inside the card body */
-//     font-size: 16px;           /* Font size for the content */
-// }
