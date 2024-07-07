@@ -38,17 +38,15 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
-<div class="button-container">
+<div class="col-sm-12 clearfix">
   <a class="small-sky-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
     Abstract
   </a>
-
+  <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
+    URL
+  </a>
   <a class="small-sky-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
     BibTeX
-  </a>
-
-  <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
-    {{ publi.url }}
   </a>
 </div>
 
