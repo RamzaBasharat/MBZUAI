@@ -39,15 +39,15 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
 <div class="button-container">
-  <a class="small-sky-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
+  <a class="btn small-sky-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
     Abstract
   </a>
 
-  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
+  <a class="btn small-sky-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
     BibTeX
   </a>
 
-  <a class="small-sky-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
+  <a class="btn small-sky-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
     URL
   </a>
 </div>

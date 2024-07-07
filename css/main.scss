@@ -288,31 +288,14 @@ margin-right:5px;
 .button-container {
     display: flex;             /* Use flexbox for alignment */
     gap: 10px;                 /* Space between buttons */
-    margin-bottom: 15px;       /* Margin below the button container */
+    margin-bottom: 10px;       /* Margin below the button container */
 }
 
 .card.card-body {
-    background-color: #f9f9f9; /* Background color for the card body */
-    border: 1px solid #ddd;    /* Border color for the card body */
+    background-color: #2c333a; /* Background color for the card body */
+    color: #fff;
+    border: 1px solid #2c333a;    /* Border color for the card body */
+    border-radius: 5px;
     padding: 15px;             /* Padding inside the card body */
     font-size: 16px;           /* Font size for the content */
-}
-
-/* Custom styles for links inside collapsible content */
-.custom-link {
-    color: #007bff;            /* Link color */
-    text-decoration: none;     /* Remove underline */
-}
-
-.custom-link:hover {
-    color: #0056b3;            /* Link color on hover */
-    text-decoration: underline; /* Underline on hover */
-}
-
-/* Custom styles for the preformatted text */
-pre {
-    background-color: #eee;    /* Background color for preformatted text */
-    padding: 10px;             /* Padding inside the preformatted text */
-    border-radius: 5px;        /* Rounded corners */
-    overflow-x: auto;          /* Horizontal scrolling if needed */
 }
