@@ -39,15 +39,15 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
   <div>
-  <a class="custom-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
-    Abs
+  <a class="custom-navy-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
+    Abstract
   </a>
 
-  <a class="custom-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
+  <a class="custom-navy-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
     BibTeX
   </a>
 
-  <a class="custom-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
+  <a class="custom-navy-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
     URL
   </a>
 </div>
@@ -61,7 +61,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <div class="collapse" id="bibtex">
   <div class="card card-body">
-    <pre>{{publi.bibtex}}</pre>
+    {{publi.bibtex}}
   </div>
 </div>
 
