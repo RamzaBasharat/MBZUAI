@@ -17,7 +17,18 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <span class="navy">{{ publi.title }}</span><br />
   <em>{{ publi.authors }} </em><br />
   In: {{ publi.publisher }}, <i class="sky">(Submitted: {{publi.date}})</i>
-  
+<div class="row">
+  <div class="col-sm-12 clearfix">
+  <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
+    Abstract
+  </a>
+</div>
+</div>
+<div class="collapse" id="abstract-{{ forloop.index }}">
+  <div class="card card-body">
+    {{publi.abs}}
+  </div>
+</div>
 
 {% endfor %}
 
@@ -49,9 +60,9 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
     BibTeX
   </a>
-  {% if publi.pdf %}
-    <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
-  {% endif %}
+{% if publi.pdf %}
+  <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
+{% endif %}
 </div>
 </div>
 
