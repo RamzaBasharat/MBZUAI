@@ -38,16 +38,16 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
-  <div>
-  <a class="custom-navy-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
+<div class="button-container">
+  <a class="small-sky-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
     Abstract
   </a>
 
-  <a class="custom-navy-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
+  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
     BibTeX
   </a>
 
-  <a class="custom-navy-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
+  <a class="small-sky-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
     URL
   </a>
 </div>
@@ -61,13 +61,13 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <div class="collapse" id="bibtex">
   <div class="card card-body">
-    {{publi.bibtex}}
+   <pre>{{publi.bibtex}}</pre> 
   </div>
 </div>
 
 <div class="collapse" id="url">
   <div class="card card-body">
-    <a href="{{publi.url}}" target="_blank" class="custom-link">{{publi.url}}</a>
+    <a href="{{ publi.url }}" target="_blank" class="custom-link">{{ publi.url }}</a>
   </div>
 </div>
 
