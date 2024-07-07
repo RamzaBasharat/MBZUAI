@@ -54,11 +54,11 @@
   date: "2024/6/10"
   bibtex: |
     @article{romero2024cvqa,
-    title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
-    author={Romero, David and Lyu, Chenyang and Wibowo, Haryo Akbarianto and Lynn, Teresa and Hamed, Injy and Kishore, Aditya Nanda and Mandal, Aishik and Dragonetti, Alina and Abzaliev, Artem and Tonja, Atnafu Lambebo and others},
-    journal={arXiv preprint arXiv:2406.05967},
-    year={2024}
-  }
+      title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
+      author={Romero, David and Lyu, Chenyang and Wibowo, Haryo Akbarianto and Lynn, Teresa and Hamed, Injy and Kishore, Aditya Nanda and Mandal, Aishik and Dragonetti, Alina and Abzaliev, Artem and Tonja, Atnafu Lambebo and others},
+      journal={arXiv preprint arXiv:2406.05967},
+      year={2024}
+    }
 
 - title: ""
   authors: ""
