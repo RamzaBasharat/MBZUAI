@@ -58,11 +58,11 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
     BibTeX
   </a>
-<span>
-{% if publi.pdf %}
-  <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
-{% endif %}
-</span>
+  <span>
+  {% if publi.pdf %}
+    <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
+  {% endif %}
+  </span>
 </div>
 </div>
 
