@@ -97,11 +97,6 @@ firstp {
 transform: scale(1.02)
 }
 
-.publ-btn-margins{
-    margin-top:10px;
-    margin-bottom:5px;
-}
-
 // ----------------- custom color ------------------------------
 
 h3,h5, .gray{
@@ -152,6 +147,7 @@ color:#99a7b2;
     cursor: pointer; /* Pointer cursor on hover */
     margin-left:0px;
     margin-right:10px;
+    margin-right:5px;
 }
 
 .small-sky-btn:hover {

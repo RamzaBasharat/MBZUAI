@@ -47,7 +47,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
-<div class="row publ-btn-margins">
+<div class="row">
   <div class="col-sm-12 clearfix">
   <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
     Abstract
@@ -64,7 +64,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 </div>
 </div>
 
-<div class="collapse" id="abstract-{{ forloop.index }}" style="margin-bottom=10px">
+<div class="collapse" id="abstract-{{ forloop.index }}">
     {{publi.abs}}
 </div>
 
