@@ -40,35 +40,32 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% endfor %}
 
-<h3 id="list-of-all-publications"> List of all Publications </h3>
+<h3 id="list-of-all-publications">List of all Publications</h3>
 
 {% for publi in site.data.publist %}
-
-  <em>{{ publi.authors }} </em><br />
+  <em>{{ publi.authors }}</em><br />
   <span class="navy">{{ publi.title }}</span><br />
-  In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
-<div class="row">
-  <div class="col-sm-12 clearfix">
-  <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
-    Abstract
-  </a>
-  <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
-    URL
-  </a>
-  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
-    BibTeX
-  </a>
-{% if publi.pdf %}
-  <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
-{% endif %}
-</div>
-</div>
-
-<div class="collapse" id="abstract-{{ forloop.index }}">
-    {{publi.abs}}
-</div>
-
-<div class="collapse" id="bibtex-{{ forloop.index }}">
-   <pre>{{publi.bibtex}}</pre>
-</div>
+  In: {{ publi.publisher }}, <i>(Publication Date: {{ publi.date }})</i>
+  <div class="row" style="margin-bottom:0px;padding-bottom:0px">
+    <div class="col-sm-12 clearfix">
+      <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
+        Abstract
+      </a>
+      <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
+        URL
+      </a>
+      <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
+        BibTeX
+      </a>
+      {% if publi.pdf %}
+        <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="collapse" id="abstract-{{ forloop.index }}">
+    {{ publi.abs }}
+  </div>
+  <div class="collapse" id="bibtex-{{ forloop.index }}">
+    <pre>{{ publi.bibtex }}</pre>
+  </div>
 {% endfor %}

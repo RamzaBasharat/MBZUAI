@@ -32,16 +32,153 @@
 
 - title: ""
   authors: ""
-  abs: "ol cross-attention (ParCA). Also, we propose the use of gated multimodal units (GMU) for fusing multiple multimodal attention mechanisms, besides the traditional concatenation. Experimental results show that the combination of parallel cross-attention and the use GMU improves considerably the performance of the reference model based on HCA."
-  publisher: "Mexican Conference on Pattern Recognition, 2024 Springer"
-  url: "https://link.springer.com/chapter/10.1007/978-3-031-62836-8_18"
-  date: "2024/6/17"
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
   bibtex: |
-    @inproceedings{morales2024multimodal,
-      title={Multimodal-Attention Fusion for the Detection of Questionable Content in Videos},
-      author={Morales, Arnold and Baharlouei, Elaheh and Solorio, Thamar and Escalante, Hugo Jair},
-      booktitle={Mexican Conference on Pattern Recognition},
-      pages={188--199},
-      year={2024},
-      organization={Springer}
-    }
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
+
+- title: ""
+  authors: ""
+  abs: ""
+  publisher: ""
+  url: ""
+  pdf: ""
+  date: ""
+  bibtex: |
