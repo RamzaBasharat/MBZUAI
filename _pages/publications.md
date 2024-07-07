@@ -34,85 +34,32 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <h3 id="list-of-all-publications"> List of all Publications </h3>
 
 {% for publi in site.data.publist %}
-  <div class="publication">
-    <em>{{ publi.authors }}</em><br>
-    <span class="navy">{{ publi.title }}</span><br>
-    In: {{ publi.publisher }}<br>
-
-    <!-- Abstract Button -->
-    <button class="small-sky-btn" type="button" data-toggle="collapse" data-target="#abstract-{{ forloop.index }}" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
-      Abstract
-    </button>
-
-    <!-- URL Button -->
-    <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
-      URL
-    </a>
-
-    <!-- BibTeX Button -->
-    <button class="small-sky-btn" type="button" data-toggle="collapse" data-target="#bibtex-{{ forloop.index }}" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
-      BibTeX
-    </button>
-
-    <!-- Abstract Collapse -->
-    <div class="collapse" id="abstract-{{ forloop.index }}">
-      <div class="card card-body">
-        {{ publi.abs }}
-      </div>
-    </div>
-
-    <!-- BibTeX Collapse -->
-    <div class="collapse" id="bibtex-{{ forloop.index }}">
-      <div class="card card-body">
-        <pre>{{ publi.bibtex | escape }}</pre>
-      </div>
-    </div>
-
-    <hr>
-  </div>
-{% endfor %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{% for publi in site.data.publist %}
 
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
 <div class="col-sm-12 clearfix">
-  <a class="small-sky-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
+  <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
     Abstract
   </a>
   <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
     URL
   </a>
-  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
+  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
     BibTeX
   </a>
 </div>
 
 
-<div class="collapse" id="abstract">
+<div class="collapse" id="abstract-{{ forloop.index }}">
   <div class="card card-body">
     {{publi.abs}}
   </div>
 </div>
 
-<div class="collapse" id="bibtex">
+<div class="collapse" id="bibtex-{{ forloop.index }}">
   <div class="card card-body">
-   {{publi.bibtex}}
+   {{publi.bibtex  | escape }}
   </div>
 </div>
 
