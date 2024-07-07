@@ -63,14 +63,4 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   </div>
 </div>
 
-[//]: # (<div class="collapse" id="url">)
-
-[//]: # (  <div class="card card-body">)
-
-[//]: # (    <a href="{{ publi.url }}" target="_blank" class="custom-link">{{ publi.url }}</a>)
-
-[//]: # (  </div>)
-
-[//]: # (</div>)
-
 {% endfor %}
