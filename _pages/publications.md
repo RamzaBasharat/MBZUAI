@@ -40,19 +40,19 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   In: {{publi.publisher}}, ({{ publi.date }})
 <div class="row">
   <div class="col-sm-12 clearfix">
-    <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
-      Abstract
-    </a>
-    <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
-      URL
-    </a>
-    <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
-      BibTeX
-    </a>
-    {% if publi.pdf %}
-      <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
-    {% endif %}
-  </div>
+  <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
+    Abstract
+  </a>
+  <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
+    URL
+  </a>
+  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
+    BibTeX
+  </a>
+  {% if publi.pdf %}
+    <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
+  {% endif %}
+</div>
 </div>
 
 <div class="collapse" id="abstract-{{ forloop.index }}">
@@ -64,4 +64,5 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <div class="collapse" id="bibtex-{{ forloop.index }}">
    <pre>{{publi.bibtex}}</pre>
 </div>
+<br />
 {% endfor %}
