@@ -58,13 +58,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 </div>
 
 <div class="collapse" id="bibtex-{{ forloop.index }}">
-  <pre>{{publi.bibtex}}</pre>
-
-[//]: # (  <div class="card card-body">)
-
-[//]: # (   <pre>{{publi.bibtex}}</pre>)
-
-[//]: # (  </div>)
+   <pre>{{publi.bibtex}}</pre>
 </div>
 
 {% endfor %}
