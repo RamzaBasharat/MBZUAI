@@ -45,13 +45,13 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 {% for publi in site.data.publist %}
 
   <em>{{ publi.authors }} </em><br />
-  {% if publi.pdf %}
-    <a class="navy" href="{{ publi.pdf }}" target="_blank">
-      {{ publi.title }}
-    </a>
-  {% else %}
-    <span class="navy">{{ publi.title }}</span>
-  {% endif %}
+{% if publi.pdf %}
+  <a class="navy" href="{{ publi.pdf }}" target="_blank">
+    {{ publi.title }}
+  </a>
+{% else %}
+  <span class="navy">{{ publi.title }}</span>
+{% endif %}
   <br />
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
 <div class="row" style="margin-bottom:5px;padding-bottom:0px">
