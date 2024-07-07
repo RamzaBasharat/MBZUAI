@@ -52,13 +52,13 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 
 <div class="collapse" id="abstract">
-  <div class="card card-body">
+  <div class="card card-body collapseText">
     {{publi.abs}}
   </div>
 </div>
 
 <div class="collapse" id="bibtex">
-  <div class="card card-body">
+  <div class="card card-body collapseText">
    <pre>{{publi.bibtex}}</pre> 
   </div>
 </div>
