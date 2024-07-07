@@ -73,3 +73,17 @@
       journal={arXiv preprint arXiv:2406.16524},
       year={2024}
     }
+
+- title: "Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations"
+  authors: "Emilio Cueva, Adrian Lopez Monroy, Fernando Sánchez-Vega, Thamar Solorio"
+  date: "2024/6"
+  abs: "Zero-Shot Cross-lingual Transfer (ZS-XLT) utilizes a model trained in a source language to make predictions in another language, often with a performance loss. To alleviate this, additional improvements can be achieved through subsequent adaptation using examples in the target language. In this paper, we exploit In-Context Tuning (ICT) for One-Shot Cross-lingual transfer in the classification task by introducing In-Context Cross-lingual Transfer (IC-XLT). The novel concept involves training a model to learn from context examples and subsequently adapting it during inference to a target language by prepending a One-Shot context demonstration in that language. Our results show that IC-XLT successfully leverages target-language examples to improve the cross-lingual capabilities of the evaluated mT5 model, outperforming prompt-based models in the Zero and Few-shot scenarios adapted through fine-tuning. Moreover, we show that when source-language data is limited, the fine-tuning framework employed for IC-XLT performs comparably to prompt-based fine-tuning with significantly more training data in the source language."
+  publisher: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+  url: "https://aclanthology.org/2024.naacl-long.460/"
+  bibtex: |
+    @article{villa2024adaptive,
+      title={Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations},
+      author={Villa-Cueva, Emilio and L{\'o}pez-Monroy, A Pastor and S{\'a}nchez-Vega, Fernando and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2404.02452},
+      year={2024}
+    }
