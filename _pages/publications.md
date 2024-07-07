@@ -56,7 +56,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 </div>
 
 <div class="collapse" id="bibtex-{{ forloop.index }}">
-   {{publi.bibtex  | escape }}
+   {{publi.bibtex}}
 </div>
 
 {% endfor %}
