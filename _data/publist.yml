@@ -1,7 +1,7 @@
 
 - title: "HyperLoader: Integrating Hypernetwork-Based LoRA and Adapter Layers into Multi-Task Transformers for Sequence Labelling"
   authors: Jesus-German Ortiz-Barajas, Helena Gomez-Adorno, Thamar Solorio
-  abs: We present HyperLoader, a simple approach that combines different parameter-efficient fine-tuning methods in a multi-task setting. To achieve this goal, our model uses a hypernetwork to generate the weights of these modules based on the task, the transformer layer, and its position within this layer. Our method combines the benefits of multi-task learning by capturing the structure of all tasks while reducing the task interference problem by encapsulating the task-specific knowledge in the generated weights and the benefits of combining different parameter-efficient methods to outperform full-fine tuning. We provide empirical evidence that HyperLoader outperforms previous approaches in most datasets and obtains the best average performance across tasks in high-resource and low-resource scenarios.
+  abs: "We present HyperLoader, a simple approach that combines different parameter-efficient fine-tuning methods in a multi-task setting. To achieve this goal, our model uses a hypernetwork to generate the weights of these modules based on the task, the transformer layer, and its position within this layer. Our method combines the benefits of multi-task learning by capturing the structure of all tasks while reducing the task interference problem by encapsulating the task-specific knowledge in the generated weights and the benefits of combining different parameter-efficient methods to outperform full-fine tuning. We provide empirical evidence that HyperLoader outperforms previous approaches in most datasets and obtains the best average performance across tasks in high-resource and low-resource scenarios."
   publisher: arXiv preprint arXiv:2407.01411
   date: 2024/7/1
   url: https://arxiv.org/abs/2407.01411
@@ -14,9 +14,9 @@
       year={2024}
     }
 
-- title: Multimodal-Attention Fusion for the Detection of Questionable Content in Videos
+- title: "Multimodal-Attention Fusion for the Detection of Questionable Content in Videos"
   authors: Arnold Morales, Elaheh Baharlouei, Thamar Solorio, Hugo Jair Escalante
-  abs: We address the problem of questionable content filtering from videos, in particular, we focus on the detection of comic mischief. Attention-based models have been proposed to approach this problem, mostly relying on hierarchical cross-attention (HCA) for fusing multimodal information. While competitive performance has been obtained with such solutions, it is unclear whether the hierarchical mechanism is the best choice for this type of model. We explore in this paper the use of an alternative mechanism called parallel cross-attention (ParCA). Also, we propose the use of gated multimodal units (GMU) for fusing multiple multimodal attention mechanisms, besides the traditional concatenation. Experimental results show that the combination of parallel cross-attention and the use GMU improves considerably the performance of the reference model based on HCA.
+  abs: "We address the problem of questionable content filtering from videos, in particular, we focus on the detection of comic mischief. Attention-based models have been proposed to approach this problem, mostly relying on hierarchical cross-attention (HCA) for fusing multimodal information. While competitive performance has been obtained with such solutions, it is unclear whether the hierarchical mechanism is the best choice for this type of model. We explore in this paper the use of an alternative mechanism called parallel cross-attention (ParCA). Also, we propose the use of gated multimodal units (GMU) for fusing multiple multimodal attention mechanisms, besides the traditional concatenation. Experimental results show that the combination of parallel cross-attention and the use GMU improves considerably the performance of the reference model based on HCA."
   publisher: Mexican Conference on Pattern Recognition, 2024 Springer
   url: https://link.springer.com/chapter/10.1007/978-3-031-62836-8_18
   pdf: 0
@@ -31,7 +31,7 @@
       organization={Springer}
     }
 
-- title: Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model
+- title: "Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model"
   authors: Elaheh Baharlouei, Mahsa Shafaei, Yigeng Zhang, Hugo Jair Escalante, Thamar Solorio
   abs: "We address the challenge of detecting questionable content in online media, specifically the subcategory of comic mischief. This type of content combines elements such as violence, adult content, or sarcasm with humor, making it difficult to detect. Employing a multimodal approach is vital to capture the subtle details inherent in comic mischief content. To tackle this problem, we propose a novel end-to-end multimodal system for the task of comic mischief detection. As part of this contribution, we release a novel dataset for the targeted task consisting of three modalities: video, text (video captions and subtitles), and audio. We also design a HIerarchical Cross-attention model with CAPtions (HICCAP) to capture the intricate relationships among these modalities. The results show that the proposed approach makes a significant improvement over robust baselines and state-of-the-art models for comic mischief detection and its type classification. This emphasizes the potential of our system to empower users, to make informed decisions about the online content they choose to see. In addition, we conduct experiments on the UCF101, HMDB51, and XD-Violence datasets, comparing our model against other state-of-the-art approaches showcasing the outstanding performance of our proposed model in various scenarios."
   publisher: arXiv preprint arXiv:2406.07841
@@ -44,4 +44,4 @@
     author={Baharlouei, Elaheh and Shafaei, Mahsa and Zhang, Yigeng and Escalante, Hugo Jair and Solorio, Thamar},
     journal={arXiv preprint arXiv:2406.07841},
     year={2024}
-  }
+   }
