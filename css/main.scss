@@ -163,7 +163,7 @@ color:#99a7b2;
 
 .small-sky-btn {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 4px 10px;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
@@ -172,7 +172,7 @@ color:#99a7b2;
     background-color: #fff; /* Background color */
     border: 2px solid #00bfff; /* Remove default border */
     cursor: pointer; /* Pointer cursor on hover */
-    margin: 0 10px 5px 0px;
+    margin: 0 15px 15px 0px;
 }
 
 .small-sky-btn:hover {
@@ -195,7 +195,10 @@ color:#99a7b2;
     background-color: #fff; /* Background color */
     border: 2px solid #00bfff; /* Remove default border */
     cursor: pointer; /* Pointer cursor on hover */
-    margin: 0 10px 5px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
 }
 
 .custom-sky-btn:hover {
@@ -285,15 +288,11 @@ margin-right:5px;
 }
 
 // --------------------------
-.button-container {
-    display: flex;             /* Use flexbox for alignment */
-    gap: 10px;                 /* Space between buttons */
-    margin-bottom: 10px;       /* Margin below the button container */
-}
 
 .card.card-body{
-    background-color: #ccf3ff; /* Background color for the card body */
-    border: 1px solid #ccf3ff;    /* Border color for the card body */
+    margin-top:10px;
+    background-color: #e6ffff; /* Background color for the card body */
+    border: 1px solid #e6ffff;    /* Border color for the card body */
     border-radius: 5px;
     padding: 15px;             /* Padding inside the card body */
     font-size: 16px;           /* Font size for the content */
