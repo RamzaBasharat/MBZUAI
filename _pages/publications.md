@@ -45,7 +45,14 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 {% for publi in site.data.publist %}
 
   <em>{{ publi.authors }} </em><br />
-  <span class="navy">{{ publi.title }}</span><br />
+  {% if publi.pdf %}
+    <a class="navy" href="{{ publi.pdf }}" target="_blank">
+      {{ publi.title }}
+    </a>
+  {% else %}
+    <span class="navy">{{ publi.title }}</span>
+  {% endif %}
+  <br />
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
 <div class="row" style="margin-bottom:5px;padding-bottom:0px">
   <div class="col-sm-12 clearfix">
@@ -58,9 +65,12 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
     BibTeX
   </a>
-{% if publi.pdf %}
-  <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
-{% endif %}
+
+[//]: # ({% if publi.pdf %})
+
+[//]: # (  <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>)
+
+[//]: # ({% endif %})
 </div>
 </div>
 
