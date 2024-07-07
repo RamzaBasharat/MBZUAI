@@ -37,7 +37,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
-  In: {{publi.publisher}}
+  In: {{publi.publisher}}, ({{ publi.date }})
 <div class="col-sm-12 clearfix" style="margin-left:0px">
   <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
     Abstract
@@ -58,9 +58,13 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 </div>
 
 <div class="collapse" id="bibtex-{{ forloop.index }}">
-  <div class="card card-body">
-   <pre>{{publi.bibtex}}</pre>
-  </div>
+  <pre>{{publi.bibtex}}</pre>
+
+[//]: # (  <div class="card card-body">)
+
+[//]: # (   <pre>{{publi.bibtex}}</pre>)
+
+[//]: # (  </div>)
 </div>
 
 {% endfor %}
