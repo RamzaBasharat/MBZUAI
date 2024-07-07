@@ -17,7 +17,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: {{ publi.publisher }}, <i>(Submission Date: {{publi.date}})</i>
-<div class="row publ-btn-margins">
+<div class="row" style="margin-bottom=0px">
   <div class="col-sm-12 clearfix">
   <a class="small-sky-btn" data-toggle="collapse" href="#abs-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abs-{{ forloop.index }}">
     Abstract
@@ -47,7 +47,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <em>{{ publi.authors }} </em><br />
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
-<div class="row">
+<div class="row" style="margin-bottom=5px">
   <div class="col-sm-12 clearfix">
   <a class="small-sky-btn" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
     Abstract
