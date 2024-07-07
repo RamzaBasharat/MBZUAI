@@ -266,17 +266,12 @@ margin-right:5px;
 
 // --------------------------
 
-// .card.card-body{
-//     display: flex;
-//     margin-top:10px;
-//     background-color: #000000; /* Background color for the card body */
-//     border: 1px solid #e6ffff;    /* Border color for the card body */
-//     border-radius: 5px;
-//     padding: 15px;             /* Padding inside the card body */
-//     font-size: 16px;           /* Font size for the content */
-// }
-// // #2c333a
-// .collapse .collapseText{
-//     background-color:#2c333a;
-//     color:#fff;
-// }
+.card.card-body{
+    display: flex;
+    margin-top:10px;
+    background-color: #000000; /* Background color for the card body */
+    border: 1px solid #e6ffff;    /* Border color for the card body */
+    border-radius: 5px;
+    padding: 15px;             /* Padding inside the card body */
+    font-size: 16px;           /* Font size for the content */
+}
