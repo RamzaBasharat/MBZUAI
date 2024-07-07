@@ -49,7 +49,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
     BibTeX
   </a>
   {% if publi.pdf != '0' %}
-    <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
+   <a class="small-sky-btn" href="{{ publi.pdf }}" target="_blank">PDF</a>
   {% endif %}
 </div>
 
