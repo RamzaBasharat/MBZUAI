@@ -39,15 +39,15 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}
   <div>
-  <a class="custom-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="collapseAbstract">
+  <a class="custom-btn" data-toggle="collapse" href="#abstract" role="button" aria-expanded="false" aria-controls="abstract">
     Abs
   </a>
 
-  <a class="btn btn-secondary" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="collapseBibtex">
+  <a class="custom-btn" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false" aria-controls="bibtex">
     BibTeX
   </a>
 
-  <a class="btn btn-info" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="collapseUrl">
+  <a class="custom-btn" data-toggle="collapse" href="#url" role="button" aria-expanded="false" aria-controls="url">
     URL
   </a>
 </div>
@@ -61,13 +61,13 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 <div class="collapse" id="bibtex">
   <div class="card card-body">
-    {{publi.bibtex}}
+    <pre>{{publi.bibtex}}</pre>
   </div>
 </div>
 
 <div class="collapse" id="url">
   <div class="card card-body">
-    {{publi.url}}
+    <a href="{{publi.url}}" target="_blank" class="custom-link">{{publi.url}}</a>
   </div>
 </div>
 
