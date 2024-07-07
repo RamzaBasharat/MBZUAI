@@ -1,5 +1,5 @@
 ---
-title: "MBZUAI NLP Research Group - Vacancies"
+title: "RiTUAL - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

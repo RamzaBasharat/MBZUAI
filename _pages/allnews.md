@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "MBZUAI NLP Research Group"
+excerpt: "RiTUAL"
 sitemap: false
 permalink: /allnews.html
 ---

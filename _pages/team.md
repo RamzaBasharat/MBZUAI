@@ -1,7 +1,7 @@
 ---
-title: "MBZUAI NLP Research Group - Team"
+title: "RiTUAL - Team"
 layout: gridlay
-excerpt: "MBZUAI NLP Research Group: Team members"
+excerpt: "RiTUAL: Team members"
 sitemap: false
 permalink: /team/
 ---

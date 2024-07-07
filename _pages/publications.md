@@ -1,7 +1,7 @@
 ---
-title: "MBZUAI NLP Research Group - Publications"
+title: "RiTUAL - Publications"
 layout: gridlay
-excerpt: "MBZUAI NLP Research Group -- Publications."
+excerpt: "RiTUAL -- Publications."
 sitemap: false
 permalink: /publications/
 ---

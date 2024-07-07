@@ -1,7 +1,7 @@
 ---
-title: "MBZUAI NLP Research Group - Research"
+title: "RiTUAL - Research"
 layout: textlay
-excerpt: "MBZUAI NLP Research Group -- Research"
+excerpt: "RiTUAL -- Research"
 sitemap: false
 permalink: /research/
 ---

@@ -1,5 +1,5 @@
 ---
-title: "MBZUAI NLP Research Group - Home"
+title: "RiTUAL - Home"
 layout: homelay
 excerpt: "Research Group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
 ."
