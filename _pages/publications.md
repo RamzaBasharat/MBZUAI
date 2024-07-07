@@ -64,11 +64,11 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 </div>
 </div>
 
-<div class="collapse publ-btn-margins" id="abstract-{{ forloop.index }}">
+<div class="collapse" id="abstract-{{ forloop.index }}" style="margin-bottom=10px">
     {{publi.abs}}
 </div>
 
-<div class="collapse publ-btn-margins" id="bibtex-{{ forloop.index }}">
+<div class="collapse" id="bibtex-{{ forloop.index }}">
    <pre>{{publi.bibtex}}</pre>
 </div>
 {% endfor %}
