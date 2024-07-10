@@ -8,9 +8,6 @@ permalink: /team/
 
 <h2>Group Members</h2>
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
 <h3 id="staff">Staff</h3>
