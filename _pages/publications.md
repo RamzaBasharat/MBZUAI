@@ -13,9 +13,9 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <h3 id="under-review-articles"> Under Review Articles </h3>
 
 {% for publi in site.data.under_review %}
-  
-  <em>{{ publi.authors }} </em><br />
+
   <span class="navy">{{ publi.title }}</span><br />
+  <em>{{ publi.authors }} </em><br />
   In: {{ publi.publisher }}, <i>(Submission Date: {{publi.date}})</i>
 <div class="row" style="margin-bottom:5px;padding-bottom:0px">
   <div class="col-sm-12 clearfix">
@@ -34,8 +34,8 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% for i in site.data.patents %}
 
-  <em>{{ i.authors }} </em><br />
   {{ i.title }} <br />
+  <em>{{ i.authors }} </em><br />
   <span class="sky">{{ i.patent-id }}</span>
 
 {% endfor %}
@@ -44,8 +44,8 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% for publi in site.data.publist %}
 
+  <span class="navy">{{ publi.title }}</span><br /> 
   <em>{{ publi.authors }} </em><br />
-  <span class="navy">{{ publi.title }}</span><br />
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
 <div class="row" style="margin-bottom:6px;padding-bottom:0px">
   <div class="col-sm-12 clearfix">
