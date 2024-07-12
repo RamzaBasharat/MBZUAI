@@ -27,7 +27,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <p>Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.</p>
-  <p class="gray">Education:</p>
+  <h5>Education:</h5>
 <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
