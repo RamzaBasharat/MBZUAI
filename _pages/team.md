@@ -22,7 +22,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h4 class="navy">{{ member.name }}</h4>
+  <h5 class="navy">{{ member.name }}</h5>
   <i class="sky">{{ member.info }}</i>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
