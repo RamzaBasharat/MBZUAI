@@ -235,13 +235,16 @@ color:#99a7b2;
     padding:auto;
 }
 
+.navbar-logo:hover{
+    transform: scale(1.01);
+}
+
 /* Navbar link hover effect */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
 //     color: #00bfff; /* Text color on hover */
     color: #58CADF; /* Text color on hover */
     background-color: transparent; /* Keep background color transparent */
-    transform: scale(1.01);
     font-weight:550;
 }
 
