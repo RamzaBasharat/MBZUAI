@@ -22,7 +22,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <p class="sub-heading">{{ member.name }}</p>
   <i class="sky">{{ member.info }}</i>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
@@ -95,7 +95,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
+  <p class="sub-heading">{{ member.name }}</p>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -151,7 +151,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <p class="sub-heading">{{ member.name }}</p>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
 
@@ -171,25 +171,25 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-<h3 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h3>
+<h4 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h3>
 <div class="row">
 
 <div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
+<p class="sub-heading">Visitors</p>
 {% for member in site.data.alumni_visitors %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
-<h4>Master students</h4>
+<p class="sub-heading">Master students</p>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
+<p class="sub-heading">Bachelor Students</p>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
@@ -198,5 +198,5 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 
 
-<h3 id="administrative-support">Administrative Support</h3>
+<h4 id="administrative-support">Administrative Support</h4>
 <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.

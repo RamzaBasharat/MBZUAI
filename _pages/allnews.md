@@ -6,7 +6,7 @@ sitemap: false
 permalink: /allnews.html
 ---
 
-<h2>News</h2>
+<h3>News</h3>
 
 
 {% for article in site.data.news %}
