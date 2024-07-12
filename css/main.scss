@@ -106,7 +106,7 @@ margin-bottom:25px;
 
 h3,h5{
 color: #5B6B6E;
-font-weight: 500;
+font-weight: 550;
 }
 
 h2,h4{
@@ -258,11 +258,11 @@ color:#99a7b2;
 /* Footer background and text color */
 #footer {
     margin-top:15px;
-    background-color: #2c333a; /* Background color */
+    background: linear-gradient(to right, #EAECEE, #5B6B6E);
     color: #fff; /* Text color */
     padding: 20px 0; /* Padding top and bottom */
     border:none;
-    border-top: 3px solid #00bfff; /* Top border color */
+    border-top: 3px solid #EAECEE; /* Top border color */
     border-radius: 0px;
 }
 
