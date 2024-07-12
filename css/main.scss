@@ -207,9 +207,9 @@ color:#99a7b2;
 
 /* Navbar background and text color */
 .navbar-default {
-    background: linear-gradient(to right, #EAECEE, #5B6B6E);
+    background: linear-gradient(to right, #D4F5FB, #5B6B6E);
     border: none; /* Remove the default border */
-    border-bottom: 3px solid #EAECEE;
+    border-bottom: 3px solid #D4F5FB;
     padding: 20px 0px 10px 0px;
     border-radius: 0px;
 }
@@ -261,7 +261,8 @@ color:#99a7b2;
 /* Footer background and text color */
 #footer {
     margin-top:15px;
-    background: linear-gradient(to right, #EAECEE, #5B6B6E);
+//     background: linear-gradient(to right, #EAECEE, #5B6B6E);
+    background: linear-gradient(to right, #D4F5FB, #5B6B6E);
     color: #fff; /* Text color */
     padding: 20px 0; /* Padding top and bottom */
     border:none;
@@ -274,7 +275,6 @@ color:#99a7b2;
 }
 
 #footer a:hover {
-    color:#80dfff;
     text-decoration: none;
     text-transform: none;
 }
