@@ -6,11 +6,11 @@ sitemap: false
 permalink: /team/
 ---
 
-<h2>Group Members</h2>
+<h3>Group Members</h3>
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
-<h3 id="staff">Staff</h3>
+<h4 id="staff">Staff</h4>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -84,7 +84,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-<h3 id="master-and-bachelor-students">Master and Bachelor Students</h3>
+<h4 id="master-and-bachelor-students">Master and Bachelor Students</h4>
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -138,7 +138,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-<h3 id="alumni">Alumni</h3>
+<h4 id="alumni">Alumni</h4>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}

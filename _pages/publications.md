@@ -6,11 +6,11 @@ sitemap: false
 permalink: /publications/
 ---
 
-<h2>Publications</h2>
+<h3>Publications</h3>
 
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
 
-<h3 id="under-review-articles"> Under Review Articles </h3>
+<h4 id="under-review-articles"> Under Review Articles </h4>
 
 {% for publi in site.data.under_review %}
 
@@ -30,7 +30,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% endfor %}
 
-<h3 id="patents"> Patents </h3>
+<h4 id="patents"> Patents </h4>
 
 {% for i in site.data.patents %}
 
@@ -40,7 +40,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% endfor %}
 
-<h3 id="list-of-all-publications"> List of all Publications </h3>
+<h4 id="list-of-all-publications"> List of all Publications </h4>
 
 {% for publi in site.data.publist %}
 
