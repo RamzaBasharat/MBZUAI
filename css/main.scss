@@ -106,12 +106,12 @@ margin-bottom:25px;
 
 h3,h5{
 color: #5B6B6E;
-font-weight: 520;
+font-weight: 510;
 }
 
 h2,h4{
 color: #000080;
-font-weight: 510;
+font-weight: 505;
 }
 
 .gray{
@@ -205,7 +205,7 @@ color:#99a7b2;
 .navbar-default {
     background: linear-gradient(to right, #EAECEE, #5B6B6E);
     border: none; /* Remove the default border */
-    border-bottom: 3px solid #EAECEE;
+    border-bottom: 3px solid #D5D8DC;
     padding: 25px 0px 10px 0px;
     border-radius: 0px;
 }
@@ -249,7 +249,7 @@ color:#99a7b2;
 /* Navbar link text color */
 .navbar-default .navbar-nav > li > a {
     color: #fff; /* Text color */
-    font-weight: 500;
+    font-weight: 510;
     font-size: 18px;
 }
 
@@ -262,7 +262,7 @@ color:#99a7b2;
     color: #fff; /* Text color */
     padding: 20px 0; /* Padding top and bottom */
     border:none;
-    border-top: 3px solid #EAECEE; /* Top border color */
+    border-top: 3px solid #D5D8DC; /* Top border color */
     border-radius: 0px;
 }
 
@@ -279,5 +279,10 @@ color:#99a7b2;
 .footer-icon{
 margin-right:5px;
 }
+
+.footer-bg{
+background-color: transparent;
+}
+
 
 // --------------------------
