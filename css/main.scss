@@ -115,7 +115,7 @@ color: #000080;
 
 .sub-heading{
 color: #000080;
-font-size: 20px;
+font-size: 19px;
 }
 
 .gray{
@@ -181,7 +181,7 @@ color:#99a7b2;
 .custom-sky-btn {
     display: inline-block;
     padding: 5px 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
@@ -207,7 +207,7 @@ color:#99a7b2;
 
 /* Navbar background and text color */
 .navbar-default {
-    background: linear-gradient(to right, #D9FBFF, #5B6B6E);
+    background: linear-gradient(to right, #EEFDFF, #5B6B6E);
     border: none; /* Remove the default border */
     border-bottom: 3px solid #E0EFF1;
     padding: 20px 0px 10px 0px;
@@ -264,7 +264,8 @@ color:#99a7b2;
 #footer {
     margin-top:15px;
 //     background: linear-gradient(to right, #EAECEE, #5B6B6E);
-    background: linear-gradient(to right, #D9FBFF, #5B6B6E);
+//     background: linear-gradient(to right, #D9FBFF, #5B6B6E);
+    background: linear-gradient(to right, #EEFDFF, #5B6B6E);
     color: #fff; /* Text color */
     padding: 20px 0; /* Padding top and bottom */
     border:none;
