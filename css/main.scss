@@ -106,12 +106,12 @@ margin-bottom:25px;
 
 h3,h5{
 color: #5B6B6E;
-font-weight: 600;
+font-weight: 500;
 }
 
 h2,h4{
 color: #000080;
-font-weight: 600;
+font-weight: 500;
 }
 
 .gray{
@@ -203,10 +203,9 @@ color:#99a7b2;
 
 /* Navbar background and text color */
 .navbar-default {
-//     background-color: #2c333a; /* Background color */
-    background: linear-gradient(to right, #D5D8DC, #5B6B6E);
+    background: linear-gradient(to right, #EAECEE, #5B6B6E);
     border: none; /* Remove the default border */
-    border-bottom: 3px solid #D5D8DC;
+    border-bottom: 3px solid #EAECEE;
     padding: 20px 0px 10px 0px;
     border-radius: 0px;
 }
