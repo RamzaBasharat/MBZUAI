@@ -171,7 +171,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-<h4 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h3>
+<h4 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h4>
 <div class="row">
 
 <div class="col-sm-4 clearfix">
