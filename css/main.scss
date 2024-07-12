@@ -105,7 +105,9 @@ margin-bottom:25px;
 // ----------------- custom color ------------------------------
 
 h3,h5, .gray{
-color:#4d5966;
+// color:#4d5966;
+color: #5B6B6E;
+
 }
 
 .white{
@@ -146,9 +148,9 @@ color:#99a7b2;
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    color: 	#73D3E2; /* Text color */
+    color: 	#50C5DE; /* Text color */
     background-color: #fff; /* Background color */
-    border: 2px solid #73D3E2; /* Remove default border */
+    border: 2px solid #50C5DE; /* Remove default border */
     cursor: pointer; /* Pointer cursor on hover */
     margin-right:10px;
     margin-bottom:0px;
@@ -156,7 +158,7 @@ color:#99a7b2;
 
 .small-sky-btn:hover {
     color: #fff;
-    background-color: #73D3E2; /* Darker background color on hover */
+    background-color: #50C5DE; /* Darker background color on hover */
     text-decoration: none;
     text-transform: none;
 }
@@ -167,6 +169,7 @@ color:#99a7b2;
     display: inline-block;
     padding: 5px 20px;
     font-size: 15px;
+    font-weight: 500;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -211,7 +214,7 @@ color:#99a7b2;
 }
 
 .navbar-logo {
-    height: 60px; /* Adjust the height of the logo */
+    height: 70px; /* Adjust the height of the logo */
     width: auto; /* Automatically adjust the width to maintain aspect ratio */
     margin-top: 15px; /* Add some space between the logo and the text */
     margin-right: 10px; /* Add some space between the logo and the text */
@@ -231,7 +234,7 @@ color:#99a7b2;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #73D3E2; /* Active text color */
+    color: #50C5DE; /* Active text color */
     background-color: transparent; /* Keep background color transparent */
 }
 

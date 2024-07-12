@@ -63,8 +63,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </ul>
 </div>
 <div class="col-sm-12 clearfix">
-  <b><a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a></b>
-  <b><a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a></b><br>
+  <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a>
+  <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
 </div>
 
 

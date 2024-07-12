@@ -6,7 +6,7 @@ sitemap: false
 permalink: /publications/
 ---
 
-<b><h2>Publications</h2></b>
+<h2>**Publications**</h2>
 
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
 
@@ -40,7 +40,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% endfor %}
 
-<b><h3 id="list-of-all-publications"> List of all Publications </h3></b>
+<h3 id="list-of-all-publications"> **List of all Publications** </h3>
 
 {% for publi in site.data.publist %}
 
