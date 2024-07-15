@@ -204,8 +204,9 @@ color:#99a7b2;
 //----------------------- navbar  --------------------------
 
 .navbar-default {
-    background: linear-gradient(to right, #EEFDFF, #5B6B6E);
-    border: none; /* Remove the default border */
+//     background: linear-gradient(to right, #EEFDFF, #5B6B6E);
+    background-color: #EEFDFF;
+    border: none;
     border-bottom: 3px solid #E9E9E9;
     padding: 20px 0px 10px 0px;
     border-radius: 0px;
@@ -256,7 +257,7 @@ color:#99a7b2;
 
 #footer {
     margin-top:15px;
-    background: linear-gradient(to right, #EEFDFF, #5B6B6E);
+    background-color: #EEFDFF;
     color: #fff;
     padding: 20px 0;
     border:none;
