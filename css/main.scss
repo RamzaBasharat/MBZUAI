@@ -93,10 +93,6 @@ firstp {
 
 /* ---------------------- custom css ---------------------------- */
 
-.scale{
-transform: scale(1.02)
-}
-
 .space-below-nav{
 margin-top:15px;
 margin-bottom:25px;
@@ -163,17 +159,17 @@ color:#99a7b2;
     text-decoration: none;
     text-transform: none;
 //     color: #00bfff; /* Text color */
-    color: #4ED5E7; /* Text color */
-    background-color: #fff; /* Background color */
-    border: 2px solid #4ED5E7; /* Remove default border */
-    cursor: pointer; /* Pointer cursor on hover */
+    color: #4ED5E7;
+    background-color: #fff;
+    border: 2px solid #4ED5E7;
+    cursor: pointer;
     margin-right:10px;
     margin-bottom:0px;
 }
 
 .small-sky-btn:hover {
     color: #fff;
-    background-color: #4ED5E7; /* Darker background color on hover */
+    background-color: #4ED5E7;
     text-decoration: none;
     text-transform: none;
 }
@@ -188,10 +184,10 @@ color:#99a7b2;
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    color: 	#4ED5E7; /* Text color */
-    background-color: #fff; /* Background color */
-    border: 2px solid #4ED5E7; /* Remove default border */
-    cursor: pointer; /* Pointer cursor on hover */
+    color:#4ED5E7;
+    background-color: #fff;
+    border: 2px solid #4ED5E7;
+    cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -200,14 +196,13 @@ color:#99a7b2;
 
 .custom-sky-btn:hover {
     color: #fff;
-    background-color: #4ED5E7; /* Darker background color on hover */
+    background-color: #4ED5E7;
     text-decoration: none;
     text-transform: none;
 }
 
 //----------------------- navbar  --------------------------
 
-/* Navbar background and text color */
 .navbar-default {
     background: linear-gradient(to right, #EEFDFF, #5B6B6E);
     border: none; /* Remove the default border */
@@ -228,10 +223,10 @@ color:#99a7b2;
 }
 
 .navbar-logo {
-    height: 70px; /* Adjust the height of the logo */
-    width: auto; /* Automatically adjust the width to maintain aspect ratio */
-    margin-top: 20px; /* Add some space between the logo and the text */
-    margin-right: 10px; /* Add some space between the logo and the text */
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 10px;
     padding:auto;
 }
 
@@ -239,45 +234,38 @@ color:#99a7b2;
     transform: scale(1.01);
 }
 
-/* Navbar link hover effect */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
-//     color: #00bfff; /* Text color on hover */
-    color: #58CADF; /* Text color on hover */
-    background-color: transparent; /* Keep background color transparent */
-    font-weight:550;
+    color: #58CADF;
+    background-color: transparent;
 }
 
-/* Active link styling */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #58D0DF; /* Active text color */
-    background-color: transparent; /* Keep background color transparent */
-    font-weight:550;
+    color: #58D0DF;
+    background-color: transparent;
 }
 
-/* Navbar link text color */
 .navbar-default .navbar-nav > li > a {
-    color: #fff; /* Text color */
+    color: #fff;
     font-size: 18px;
 }
 
 //-------------------------- Footer -----------------------------
 
-/* Footer background and text color */
 #footer {
     margin-top:15px;
     background: linear-gradient(to right, #EEFDFF, #5B6B6E);
-    color: #fff; /* Text color */
-    padding: 20px 0; /* Padding top and bottom */
+    color: #fff;
+    padding: 20px 0;
     border:none;
-    border-top: 3px solid #E9E9E9; /* Top border color */
+    border-top: 3px solid #E9E9E9;
     border-radius: 0px;
 }
 
 #footer p {
-    margin-bottom: 10px; /* Bottom margin for paragraphs */
+    margin-bottom: 10px;
 }
 
 #footer a:hover {
@@ -287,7 +275,6 @@ color:#99a7b2;
 }
 
 #footer a {
-//     color: #40696E;
     color: #30575E;
 }
 
@@ -298,6 +285,3 @@ margin-right:5px;
 .footer-bg{
 background-color: transparent;
 }
-
-
-// --------------------------

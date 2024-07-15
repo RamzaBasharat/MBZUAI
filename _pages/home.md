@@ -26,10 +26,6 @@ Welcome to the official website of the RiTUAL (Research in Text Understanding an
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
         <li data-target="#carousel" data-slide-to="6"></li>
-        <li data-target="#carousel" data-slide-to="7"></li>
-        <li data-target="#carousel" data-slide-to="8"></li>
-        <li data-target="#carousel" data-slide-to="9"></li>
-        <li data-target="#carousel" data-slide-to="10"></li>
     </ol>
 
     <!-- Items -->
