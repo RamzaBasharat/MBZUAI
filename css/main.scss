@@ -235,7 +235,8 @@ color:#99a7b2;
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #58CADF;
+//     color: #58CADF;
+    color:  #000080;
     background-color: transparent;
 }
 
@@ -244,7 +245,7 @@ color:#99a7b2;
 .navbar-default .navbar-nav > li > a {
     color: #5B6B6E;
     font-size: 18px;
-    font-weight:bold;
+    font-weight:500;
 }
 
 //-------------------------- Footer -----------------------------
